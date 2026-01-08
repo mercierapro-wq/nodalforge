@@ -1,5 +1,5 @@
 import React from 'react';
-import { Boxes, Github, Twitter, Linkedin } from 'lucide-react';
+import { Github, Twitter, Linkedin } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -8,23 +8,26 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-cyan-500 rounded-lg flex items-center justify-center">
-                <Boxes className="w-6 h-6 text-white" />
-              </div>
+            <a 
+              href="#" 
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className="flex items-center gap-3 mb-4 inline-flex"
+            >
+              <img src="/nodalforge.png" alt="NodalForge" className="w-10 h-10 rounded-lg" />
               <span className="text-xl font-bold text-white">NodalForge</span>
-            </div>
+            </a>
             <p className="text-slate-400 mb-4">
               Créateur de produits digitaux innovants pour simplifier votre quotidien.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-slate-400 hover:text-indigo-400 transition-colors">
+              <a href="https://github.com/mercierapro-wq" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-indigo-400 transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-slate-400 hover:text-indigo-400 transition-colors">
+             
+              <a href="https://www.linkedin.com/in/alexis-mercier-54284792/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>

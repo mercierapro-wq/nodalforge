@@ -28,7 +28,7 @@ export const Hero: React.FC = () => {
 
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Bienvenue sur
-            <span className="block mt-2 bg-gradient-to-r from-indigo-400 via-cyan-400 to-indigo-400 bg-clip-text text-transparent">
+            <span className="block mt-2 bg-gradient-to-r from-indigo-400 via-cyan-400 to-indigo-400 bg-clip-text text-transparent pb-4">
               NodalForge
             </span>
           </h1>
