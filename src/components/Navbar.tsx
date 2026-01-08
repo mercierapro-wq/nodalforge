@@ -17,10 +17,9 @@ export const Navbar: React.FC = () => {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className="flex items-center gap-3"
+            className="flex items-center"
           >
-            <img src="/nodalforge.png" alt="NodalForge" className="w-10 h-10 rounded-lg" />
-            <span className="text-xl font-bold text-white">NodalForge</span>
+            <img src="/nodalforge_navbar.png" alt="NodalForge" className="h-12 w-auto" />
           </a>
 
           <div className="flex items-center gap-6">

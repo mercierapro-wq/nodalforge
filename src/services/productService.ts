@@ -8,6 +8,22 @@ const MOCK_PRODUCTS: Product[] = [
     image: '/cardify.png',
     link: 'https://cardify.nodalforge.cloud/',
     status: 'new'
+  },
+  {
+    id: '2',
+    title: 'Locapub',
+    description: 'Création de support de communication pour les professionnels',
+    image: '/locapub.png',
+    link: '#',
+    status: 'coming_soon'
+  },
+  {
+    id: '3',
+    title: 'CV',
+    description: 'CV Alexis Mercier',
+    image: '/cv.png',
+    link: '#',
+    status: 'coming_soon'
   }
 ];
 

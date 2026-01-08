@@ -14,10 +14,9 @@ export const Footer: React.FC = () => {
                 e.preventDefault();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className="flex items-center gap-3 mb-4 inline-flex"
+              className="flex items-center mb-4 inline-flex"
             >
-              <img src="/nodalforge.png" alt="NodalForge" className="w-10 h-10 rounded-lg" />
-              <span className="text-xl font-bold text-white">NodalForge</span>
+              <img src="/nodalforge_navbar.png" alt="NodalForge" className="h-12 w-auto" />
             </a>
             <p className="text-slate-400 mb-4">
               Créateur de produits digitaux innovants pour simplifier votre quotidien.

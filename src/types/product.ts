@@ -4,5 +4,5 @@ export interface Product {
   description: string;
   image: string;
   link: string;
-  status?: 'new' | 'popular' | 'updated';
+  status?: 'new' | 'popular' | 'updated' | 'coming_soon';
 }
