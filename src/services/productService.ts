@@ -11,17 +11,17 @@ const MOCK_PRODUCTS: Product[] = [
   },
   {
     id: '2',
-    title: 'Locapub',
-    description: 'Création de support de communication pour les professionnels',
-    image: '/locapub.png',
+    title: 'NodalCV',
+    description: 'Transformez votre CV en profil web moderne',
+    image: '/NodalCV_icon.png',
     link: '#',
-    status: 'coming_soon'
+    status: 'new'
   },
   {
     id: '3',
-    title: 'CV',
-    description: 'CV Alexis Mercier',
-    image: '/cv.png',
+    title: 'Locapub',
+    description: 'Création de support de communication pour les professionnels',
+    image: '/locapub.png',
     link: '#',
     status: 'coming_soon'
   }

@@ -46,16 +46,16 @@ export const Footer: React.FC = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Contact</h3>
+            <h3 className="text-white font-semibold mb-4">Autre</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-slate-400 hover:text-indigo-400 transition-colors">
+                <a href="mailto:nodalforge@gmail.com" className="text-slate-400 hover:text-indigo-400 transition-colors">
                   Support
                 </a>
               </li>
               <li>
-                <a href="#" className="text-slate-400 hover:text-indigo-400 transition-colors">
-                  Documentation
+                <a href="mailto:nodalforge@gmail.com" className="text-slate-400 hover:text-indigo-400 transition-colors">
+                  Contact
                 </a>
               </li>
             </ul>
