@@ -14,7 +14,7 @@ const MOCK_PRODUCTS: Product[] = [
     title: 'NodalCV',
     description: 'Transformez votre CV en profil web moderne',
     image: '/NodalCV_icon.png',
-    link: '#',
+    link: 'https://nodalcv.nodalforge.cloud/',
     status: 'new'
   },
   {
