@@ -1,5 +1,6 @@
 import React from 'react';
-import { Github, Twitter, Linkedin } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Github, Linkedin } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -8,16 +9,15 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <a 
-              href="#" 
-              onClick={(e) => {
-                e.preventDefault();
+            <Link 
+              to="/" 
+              onClick={() => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="flex items-center mb-4 inline-flex"
             >
               <img src="/nodalforge_navbar.png" alt="NodalForge" className="h-12 w-auto" />
-            </a>
+            </Link>
             <p className="text-slate-400 mb-4">
               Créateur de produits digitaux innovants pour simplifier votre quotidien.
             </p>
@@ -57,6 +57,11 @@ export const Footer: React.FC = () => {
                 <a href="mailto:nodalforge@gmail.com" className="text-slate-400 hover:text-indigo-400 transition-colors">
                   Contact
                 </a>
+              </li>
+              <li>
+                <Link to="/privacy" className="text-slate-400 hover:text-indigo-400 transition-colors">
+                  Confidentialité
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const GA_MEASUREMENT_ID = 'G-MSDMJ85N5W';
 
@@ -66,7 +67,7 @@ export const CookieBanner = () => {
               <p className="text-slate-300 text-sm">
                 Nous utilisons des cookies pour analyser notre trafic et améliorer votre expérience. 
                 En cliquant sur "Accepter", vous consentez à l'utilisation de Google Analytics. 
-                Consultez notre <a href="/privacy" className="text-blue-400 hover:text-blue-300 underline">Politique de confidentialité</a>.
+                Consultez notre <Link to="/privacy" className="text-blue-400 hover:text-blue-300 underline">Politique de confidentialité</Link>.
               </p>
             </div>
             
