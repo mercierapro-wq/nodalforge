@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { ProductGrid } from './components/ProductGrid';
 import { Footer } from './components/Footer';
+import { CookieBanner } from './components/CookieBanner';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </main>
 
       <Footer />
+      <CookieBanner />
     </div>
   );
 }
